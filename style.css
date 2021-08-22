@@ -1,0 +1,64 @@
+
+body{
+    /* background-color: silver; */
+    background-image: url("images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* background-color: antiquewhite; */
+    /* background: rgb(237,170,200);
+background: radial-gradient(circle, rgba(237,170,200,1) 1%, rgba(93,125,163,1) 100%); */
+   background-color: #FFAA4C;
+    align-items: center;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    height: 80vh;
+    font-size: large;   
+}
+
+#error-message {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid #035397;
+    border-collapse: collapse;
+    height: 40px;
+    width: 400px;
+  }
+
+#bill-amount, #cash-given{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-style: bold;
+}
+
+#check-btn {
+    color: steelblue;
+    /* background-color: sandybrown; */
+    border-radius: 40px;
+    border: 4px groove ;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#bill-amount {
+    border: 2px solid #035397;
+    border-radius: 4px;
+
+}
+
+#cash-given{
+    border: 2px solid #035397;
+    border-radius: 4px;
+
+}
